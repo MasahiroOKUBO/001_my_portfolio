@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles-medium.css" media="screen and (min-width: 550px)" rel="stylesheet">
+    <link href="css/styles-large.css" media="screen and (min-width: 700px)" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="http://placekitten.com/g/200/200" class="title-logo img-responsive" alt="logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 class="title-super">Masahiro OKUBO</h1>
+            <h3 class="text-muted">Full Stack Programmer</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="http://placekitten.com/1140/350" class="img-responsive">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#featuredwork1">
+            <h3>Appify</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#featuredwork2">
+            <h3>Appify</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#featuredwork3">
+            <h3>Appify</h3>
+            <p><a href="http://github.com">Link to project</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="featuredwork1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="http://placekitten.com/555/300">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

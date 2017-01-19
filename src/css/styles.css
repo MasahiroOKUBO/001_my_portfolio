@@ -1,0 +1,30 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: rgba(116, 119, 4, 0.45);
+}
+
+.text-thin {
+     font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin: 10px;
+}
+
+img, embed, object, video{
+    max-width: 100%;
+}
+
+nav a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
