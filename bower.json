@@ -1,0 +1,17 @@
+{
+  "name": "001_myportfolio",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "MasahiroOKUBO <okubo.masahiro@okubo-tech.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MasahiroOKUBO/001_my_portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
