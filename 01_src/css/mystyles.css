@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(black, orangered);
+    height: 100%;
+}
+
+.symbolcharacter{
+    font-size: 50px;
+    font-weight: 900;
+    font-kerning: normal;
+    color: #eceaea;
+    text-shadow: 0px 0px 50px orange;
+}
+
+h1#myname{
+    font-size: 30px;
+    color: orangered;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: whitesmoke;
+    text-decoration: underline;
+    padding: 20px;
+    text-shadow: 0px 0px 50px black;
+}
+
+h3#myposition{
+    margin-top:0px;
+    font-size: 20px;
+    color: orange;
+}
+
+h3.app-name{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0px 0px 50px white;
+}
+
+
+
+figcaption#hero-image-caption1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(109, 58, 84, 0.9);
+    top: 5px;
+    left: 30px;
+}
+
+figcaption#hero-image-caption2 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(244, 129, 163, 0.9);
+    top: 45px;
+    left: 30px;
+    display: none;
+}
+
+figcaption#hero-image-caption3 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(101, 135, 244, 0.9);
+    top: 85px;
+    left: 30px;
+    display: none;
+}
+
+
+
+.modal-body{
+    text-align: center;
+}
+
+.app-img{
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    /*width: 100vmin;*/
+    height: 100vmin;
+}
+
+img#myface{
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    width: 56px;
+    height: 70px;
+}
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+    img#myface{
+        left: 300px;
+        animation: climehigh 5s ease 0s infinite normal none running;
+    }
+    @keyframes climehigh {
+        from {  transform: translate(0px, 0px) rotate(0deg);  }
+        70% { transform: translate(100px, -100px) rotate(10deg);  }
+        to {  transform: translate(0px, 0px) rotate(-360deg);  }
+    }
+    figcaption#hero-image-caption p {
+        content: " Clime& Never Giveup ";
+        font-style: italic;
+        color: #fc1d22;
+    }
+    figcaption#hero-image-caption2{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    img#myface{
+        left: 500px;
+        animation: climehigh 8s ease 0s infinite normal none running;
+    }
+    @keyframes climehigh {
+        /*from {  transform: perspective(1000px) translate(0px, 0px) rotateX(0deg) rotateY(0deg);  }*/
+        /*50% { transform: perspective(1000px) translate(300px, -300px) rotateX(10deg) rotateY(5deg);}*/
+        /*to { transform: perspective(100px) translate(100px, -100px) rotateX(360deg) rotateY(720deg);}*/
+        /*50% { transform: translate(300px, -300px) rotateX(70deg) rotateY(60deg);}*/
+        /*to { transform: translate(0px, 0px) scale(2.0) rotateX(720deg) rotateY(720deg);}*/
+        from {  transform: perspective(1000px) translate(0px, 0px) scale(1.0) rotate3d(1,1,0,0deg);  }
+        50% { transform: perspective(1000px) translate(300px, -300px) scale(1.0) rotate3d(1,1,0,10deg);}
+        to { transform: perspective(100px) translate(100px, -100px) scale(3.0) rotate3d(1,1,0,360deg);}
+    }
+    figcaption#hero-image-caption2{
+        display: block;
+    }
+    figcaption#hero-image-caption3{
+        display: block;
+    }
+}

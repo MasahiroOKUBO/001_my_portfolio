@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html xmlns: xmlns:>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mystyles.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 symbolcharacter">
+            &#10052;CLIMEHIGH&#10052;
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 id="myname">Masahiro OKUBO</h1>
+            <h3 id="myposition">Full Stack Engineer</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <figure id="hero-image">
+                <img class="img-responsive"
+                     src="img/movietrailer-400_small.jpg"
+                     srcset="
+                     img/climehigh-400_small.jpg 400w,
+                     img/climehigh-600_medium.jpg 600w,
+                     img/climehigh-1200_large.jpg 1200w"
+                     sizes="100vw"
+                     alt="Clime high.That is my motto.">
+                <img id="myface" src="img/face.png" >
+                <figcaption id="hero-image-caption1"><p>Clime High</p></figcaption>
+                <figcaption id="hero-image-caption2"><p>Never Giveup</p></figcaption>
+                <figcaption id="hero-image-caption3"><p>Fly into Sky!</p></figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 img-responsive">
+            <h2>Featured Work</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="app-name">Movie Trailer</h3>
+            <img src="img/movietrailer-400_small.jpg"
+                 srcset="
+                     img/movietrailer-400_small.jpg 400w,
+                     img/movietrailer-600_medium.jpg 600w,
+                     img/movietrailer-1200_large.jpg 1200w"
+                 sizes="(min-width: 36em) 33.3vw, 100vw"
+                 alt="App image of Movie Trailer"
+                 class="img-responsive app-img" data-toggle="modal" data-target="#project1">
+            <p>Introduce my favorite movies and TVs. Writing with python& HTML. Here is a <a href="https://github.com/MasahiroOKUBO/movie-trailer-website">code</a></p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="app-name">My Resume</h3>
+            <img src="img/myresume-400_small.jpg"
+                 srcset="
+                     img/myresume-400_small.jpg 400w,
+                     img/myresume-600_medium.jpg 600w,
+                     img/myresume-1200_large.jpg 1200w"
+                 sizes="(min-width: 36em) 33.3vw, 100vw"
+                 alt="App image of My Resume"
+                 class="img-responsive app-img" data-toggle="modal" data-target="#project2">
+            <p>Show my resume. Writting with Javascript & HTML. Here is a <a href="https://github.com/MasahiroOKUBO/u-ipnd-fed">code</a></p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="app-name">Do You Know Japan</h3>
+            <img src="img/doyouknowjapan-400_small.jpg"
+                 srcset="
+                     img/doyouknowjapan-400_small.jpg 400w,
+                     img/doyouknowjapan-600_medium.jpg 600w,
+                     img/doyouknowjapan-1200_large.jpg 1200w"
+                 sizes="(min-width: 36em) 33.3vw, 100vw"
+                 alt="App image of Do You Know Japan"
+                 class="img-responsive app-img" data-toggle="modal" data-target="#project3">
+            <p>Quiz aboudt Japan Game. Here is a <a href="https://github.com/MasahiroOKUBO/DoYouKnowTokyo">code</a></p>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-4">
+            <h3 class="app-name">ProductInventory</h3>
+            <img src="img/productinventory-400_small.jpg"
+                 srcset="
+                     img/productinventory-400_small.jpg 400w,
+                     img/productinventory-600_medium.jpg 600w,
+                     img/productinventory-1200_large.jpg 1200w"
+                 sizes="(min-width: 36em) 33.3vw, 100vw"
+                 alt="App image of ProductInventory"
+                 class="img-responsive app-img" data-toggle="modal" data-target="#project4">
+            <p>Basic CRUD Android App. Here is a <a href="https://github.com/MasahiroOKUBO/ProductInventory">code</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Movie Trailer</h4>
+            </div>
+            <div class="modal-body">
+                <iframe width="340" height="191" src="https://www.youtube.com/embed/5Ens7TZzgG0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <br>
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <iframe width="340" height="191" src="https://www.youtube.com/embed/5Ens7TZzgG0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <br>
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <iframe width="340" height="191" src="https://www.youtube.com/embed/5Ens7TZzgG0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <br>
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <iframe width="340" height="191" src="https://www.youtube.com/embed/5Ens7TZzgG0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <br>
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

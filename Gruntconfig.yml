@@ -1,0 +1,3 @@
+src_dir: 01_src/
+dst_dir: 02_dst/
+src_dir_js: 01_src/js_src/
