@@ -6,5 +6,11 @@
 
 02_dst is distribution directory.
 
+```bash
+cd 02_dst
+open index.html
+```
+
+
 
 
