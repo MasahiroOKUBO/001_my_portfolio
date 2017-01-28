@@ -1,36 +1,62 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
 body {
     background: linear-gradient(black, orangered);
     height: 100%;
 }
 
-.symbolcharacter{
-    font-size: 50px;
+footer {
+    background-color: #0f0f0f;
+    margin: 10px;
+}
+
+.symbolcharacter {
+    font-size: 40px;
     font-weight: 900;
     font-kerning: normal;
     color: #eceaea;
     text-shadow: 0px 0px 50px orange;
 }
 
-h1#myname{
+h1#myname {
     font-size: 30px;
     color: orangered;
     margin-bottom: 0px;
 }
 
-h2{
+h2 {
     color: whitesmoke;
     text-decoration: underline;
     padding: 20px;
     text-shadow: 0px 0px 50px black;
 }
 
-h3#myposition{
+h3#myposition {
     margin-top:0px;
     font-size: 20px;
     color: orange;
 }
 
-h3.app-name{
+h3.app-name {
     text-align: center;
     color: whitesmoke;
     text-shadow: 0px 0px 50px white;
@@ -69,11 +95,11 @@ figcaption#hero-image-caption3 {
 
 
 
-.modal-body{
+.modal-body {
     text-align: center;
 }
 
-.app-img{
+.app-img {
     padding: 5%;
     display: block;
     margin-left: auto;
@@ -83,13 +109,19 @@ figcaption#hero-image-caption3 {
     height: 100vmin;
 }
 
-img#myface{
+img#myface {
     position: absolute;
     bottom: 5px;
     left: 30px;
     width: 56px;
     height: 70px;
 }
+
+.social-icon {
+    width: 25vw;
+    text-align: center;
+}
+
 
 @media screen and (min-width:701px) and (max-width:1200px) {
     img#myface{

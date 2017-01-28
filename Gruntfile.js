@@ -80,7 +80,7 @@ module.exports = function (grunt) {
         'cssmin',
     ]);
 
-    grunt.registerTask('make_distribution', [
+    grunt.registerTask('make_dst', [
         'copy',
     ]);
 };
